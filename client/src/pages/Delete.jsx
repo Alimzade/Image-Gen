@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Delete() {
+const Delete = () => {
     const [postId, setPostId] = useState('');
     const [resultMessage, setResultMessage] = useState('');
 
@@ -9,7 +9,7 @@ function Delete() {
 
         try {
 
-            const base_url = "http://localhost:8080/api/v1/post/"
+            const base_url = "https://image-gen-dmj4.onrender.com/api/v1/post/"
             console.log("Deleting post with ID:", postId); // Add this line
             const response = await fetch(`${base_url}${postId}`, {
                 method: 'DELETE',
