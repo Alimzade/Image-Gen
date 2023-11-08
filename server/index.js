@@ -23,11 +23,11 @@ app.use('/api/v1/post', postRoutes);
 app.use('/api/v1/dalle', dalleRoutes);
 
 // Serve static files from the build directory (your React app)
-app.use(express.static(path.join(__dirname, '../client')));
+app.use(express.static(path.join(__dirname, '../client/dist')));
 
 // Define a wildcard route that serves the main HTML file
 app.get('/*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client', 'index.html'));
+  res.sendFile(path.join(__dirname, '../client/dist', 'index.html'));
 });
 
 app.get('/', async (req, res) => {
