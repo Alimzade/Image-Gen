@@ -9,7 +9,7 @@ const Delete = () => {
 
         try {
 
-            const base_url = "https://image-gen-dmj4.onrender.com/api/v1/post/"
+            const base_url = "https://localhost:8080/api/v1/post/"
             console.log("Deleting post with ID:", postId); // Add this line
             const response = await fetch(`${base_url}${postId}`, {
                 method: 'DELETE',
