@@ -1,6 +1,8 @@
 # Image-Gen
 
-Welcome to Image-Gen, a web platform where users can explore a gallery of images created and shared by the community. 
+Welcome to Image-Gen, a web platform where users can explore a gallery of images created and shared by the community.
+
+<img width="1137" height="802" alt="project4" src="https://github.com/user-attachments/assets/d754f8af-15ca-4d7d-acf4-6851ad65259c" />
 
 ## Features
 - **Image Gallery:** Immerse yourself in a captivating collection of images curated by our community.
