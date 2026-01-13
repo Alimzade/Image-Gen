@@ -29,3 +29,6 @@ Welcome to Image-Gen, a web platform where users can explore a gallery of images
 <div style="margin-top: 10px; margin-bottom: 10px;">
     <img src="https://github.com/Alimzade/Image-Gen/assets/53145081/0b198436-9304-4b1b-9ed9-2d65e0b96cf6" alt="lnnksqiw8cdiw6t63ykk" width="700">
 </div>
+
+## Acknowledgments & Attribution
+This project was built following the architectural patterns and guidance provided by **Adrian Hajdin (JS Mastery)**.
